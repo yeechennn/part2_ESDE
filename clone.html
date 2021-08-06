@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>[D]esign[C]ompetition</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+   
+</head>
+
+<body style='margin:0; padding: 0;width: 100%;height: 100%;'>
+   
+    <script>
+        function OnFrameLoaded(){
+            document.getElementById("frame").contentWindow.document.getElementById('submitButton').addEventListener("click",(e) =>{
+                e.preventDefault();
+                alert($(document.getElementById("frame").contentWindow.document.getElementById("emailInput")).val() + "," +
+                 $(document.getElementById("frame").contentWindow.document.getElementById("passwordInput")).val());
+            
+            });
+        }
+    </script>
+    <iframe style="width:100% ;height: 100vh;" id="frame" src="http://localhost:3001/home.html" frameborder="0" onload="OnFrameLoaded(this)"></iframe>
+</body>
+</html>
