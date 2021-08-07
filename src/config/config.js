@@ -2,9 +2,12 @@
 const dotenv = require('dotenv');
 dotenv.config(); //Build the process.env object.
 module.exports = {
-    databaseUserName: process.env.DB_USERNAME,
-    databasePassword: process.env.DB_PASSWORD,
-    databaseName: process.env.DB_DATABASE_NAME,
+    // databaseUserName: process.env.DB_USERNAME,
+    databaseUserName:'root',
+    databasePassword:'12345678',
+    databaseName:'ESDE Assignment Part 2',
+    // databasePassword: process.env.DB_PASSWORD,
+    // databaseName: process.env.DB_DATABASE_NAME,
 
     cloudinaryUrl: process.env.CLOUDINARY_URL,
     cloudinaryCloudName: process.env.CLOUDINARY_CLOUD_NAME,
