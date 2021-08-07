@@ -8,7 +8,7 @@ const pool = mysql.createPool({
         host: 'esde-part2-db.cnkywdbvye3n.us-east-2.rds.amazonaws.com',
         user: 'root',
         password: '12345678',
-        database: 'ESDE Assignment Part 2',
+        database: 's',
         multipleStatements: true
     });
 
