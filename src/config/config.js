@@ -5,7 +5,7 @@ module.exports = {
     // databaseUserName: process.env.DB_USERNAME,
     databaseUserName:'root',
     databasePassword:'12345678',
-    databaseName:'ESDE Assignment Part 2',
+    databaseName:'ESDE_Assignment_Part 2',
     // databasePassword: process.env.DB_PASSWORD,
     // databaseName: process.env.DB_DATABASE_NAME,
 
